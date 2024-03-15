@@ -1,0 +1,26 @@
+/* Reset de CSS */
+
+/* Establece el cuadro de modelo de caja en border-box para todos los elementos */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Establece estilos de tipografía predeterminados */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Normaliza estilos de lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Establece la visualización de elementos de forma predeterminada */
+article, aside, details, figcaption, figure,
+footer, header, main, nav, section, summary {
+    display: block;
+}

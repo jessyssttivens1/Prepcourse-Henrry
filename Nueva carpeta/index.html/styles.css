@@ -1,0 +1,52 @@
+body{
+    background-color: green;
+}
+.title{
+    font-size: 2.2em;
+    color:rgb(220, 20, 20);
+    
+    
+}
+.logo{
+    width: 400px;
+    height: 400px;
+}
+ .cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 6%;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column ;
+    gap: 2em;
+    align-items: center;
+ }
+  .cards:hover{
+    background-color: rgba(233, 31, 71, 0.719);
+  }
+
+#principal{
+      font-size: 70px
+      
+}
+#titulos{
+    border: 4px solid black;
+    width: 65vw;
+    margin: auto; 
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards-container{
+     width: 85vw;
+     margin: auto;
+     border-radius: 2%;
+     margin-top: 1.5em;
+     border: 5px solid rgb(84, 80, 80);
+     padding: 3em;
+     display: flex;
+     flex-direction:  row;
+     justify-content: space-evenly;
+}
